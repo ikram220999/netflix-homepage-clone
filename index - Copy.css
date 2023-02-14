@@ -1,0 +1,64 @@
+body{
+    background-image: url("netflix-image.jpg");
+
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+.nav img{
+    width: 15%;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.kambing{
+    width: 17%;
+    /* border: 1px solid blue; */
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    width: 60%;
+    height: 50%;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.mid{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textmid{
+
+}
